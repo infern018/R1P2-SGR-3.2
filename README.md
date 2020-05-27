@@ -32,24 +32,24 @@ The app should now be running at https://localhost:3000.
 /
 |-- node-modules/			        #Dependencies
 |
-|-- public/ 			            #default react app logo, favicon and other files
-		|-- index.html 		        #contains links of the styling frameworks
+|-- public/ 			           	#default react app logo, favicon and other files
+	|-- index.html 		        	#contains links of the styling frameworks
 |
 |-- src/
 	|-- components/			        #all the components of the react app 
-					|-- Home/		        #home page
-					|-- Misc/		        #pagination of results
-					|-- Movie/		      #list of movies
-					|-- MovieInfo/			#details of a particular movie
-					|-- Nav/		        #Navbar
-					|-- SearchBoxes/		#Search by Title/Genre Boxes
-					|-- SearchLogic/		#Different API Calls for Title/Genre
-					|
-					|-- App.js 		      #index Js app holding the primary components
+			|-- Home/		#home page
+			|-- Misc/	        #pagination of results
+			|-- Movie/     	        #list of movies
+			|-- MovieInfo/		#details of a particular movie
+			|-- Nav/		#Navbar
+			|-- SearchBoxes/	#Search by Title/Genre Boxes
+			|-- SearchLogic/	#Different API Calls for Title/Genre
+			|
+			|-- App.js 		#index Js app holding the primary components
 |
-|-- index.js		              #hosting file for App.js
+|-- index.js		              		#hosting file for App.js
 |-- package.json			        #project properties
-|-- package-lock.json			    #dependencies
+|-- package-lock.json			    	#dependencies
 ```
 ## Styling frameworks
 The app uses following frameworks to ease styling of the app:
