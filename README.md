@@ -5,9 +5,6 @@ A ReactJs based web app that brings to you your favorite movies on just a simple
 ## Live-Link
 [Movie-Looper](https://mighty-savannah-47226.herokuapp.com/)
 
-## A snap of the site
-![](https://raw.githubusercontent.com/infern018/webd_work/master/Screenshot%20(30).png?token=AMPTYWCNLNGPTEWNIUY63ZS6ZNWNI)
-
 ## Dependencies
 ![](https://img.shields.io/badge/npm-v6.13.4-blue)  ![](https://img.shields.io/badge/node-v12.6.1-green)
 
