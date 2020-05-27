@@ -1,0 +1,25 @@
+.brand-logo {
+    position: relative;
+    left:85px;
+}
+
+li {
+    position: relative;
+    right: -90px;
+}
+
+.fa {
+    position: relative;
+    font-size: 40px;
+    top:13px;
+    left: 35px;
+}
+
+.home-link{
+    font-size: 25px;
+}
+
+.transparentBG {
+    background-color: rgba(0,0,0,0);
+    border-bottom:1px solid white;
+  }

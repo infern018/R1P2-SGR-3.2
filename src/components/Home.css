@@ -1,0 +1,112 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.section1 {
+    color: white;
+    margin-top: -36px;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("https://images.pexels.com/photos/2376994/pexels-photo-2376994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    height: 40em;
+}
+
+blockquote {
+    font-size: 30px;
+    padding-right: 500px;
+}
+
+.header {
+    position: relative;
+    top:150px;
+    left:300px;
+}
+
+.header h2{
+    font-weight: 500;
+}
+
+
+.split-left {
+    display: inline-block;
+    position: relative;
+    padding-right: 200px;
+    left:13px;
+}
+
+.split-right  {
+    display: inline-block;
+    position: relative;
+    left:50px;
+}
+
+.section1 a {
+    color: white;
+}
+
+.section1 .container {
+    position: relative;
+    top:180px;
+    left: 120px;
+    font-size: 1.66em;
+}
+
+.button{
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 20px 0;
+    position: relative;
+    color: #ecf0f1;
+  }
+
+#button-search{
+    color: white;
+    overflow: hidden;
+  }
+  
+  #button-search:before, #button-search:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    top: 0;
+    left: -100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #button-search:after{
+    bottom: 0 !important;
+    top: auto !important;
+    right: -100%;
+    left: auto;
+  }
+  
+  #button-search:hover:before{
+    left: 0;
+  }
+  
+  #button-search:hover:after{
+    right: 0;
+  }
+  
+input {
+    color: white;
+}
+
+
+.pagination{
+    position: relative;
+    margin: auto;
+    left:297px;
+}
+
+.pagination li a{
+    color: white;
+}

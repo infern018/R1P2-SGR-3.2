@@ -1,0 +1,65 @@
+body{
+    color: white;
+}
+
+
+.movie-card {
+	animation:backAn 20s infinite;
+	color:#fff;
+    padding:30px;
+    height: 400px;
+	z-index:1;
+	background:url(https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60) 100% bottom;
+	box-shadow:0px 45px 100px rgba(0, 0, 0, 0.4), inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+.movie-card-container .image{
+    height: 400px;
+}
+
+@keyframes backAn {
+	0% {
+		background-size:100%;
+	}
+	50% {
+		background-size:250%;
+	}
+	100% {
+		background-size:100%;
+	}
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+ }
+
+ .text2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+ }
+
+.container .row .fa {
+     position: relative;
+     font-size: 20px;
+     font-weight: 100px;
+     left:10px;
+ }
+
+ span{
+     position: relative;
+     left:10px;
+     top:12px;
+ }
+
+ .fa-star{
+     color: yellow;
+     position: relative;
+     top:1.3px;
+ }

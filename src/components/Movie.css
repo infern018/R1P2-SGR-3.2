@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("https://images.pexels.com/photos/2376994/pexels-photo-2376994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-size: cover;
+}
+
+.card-image {
+    height: 360px;
+}
+
+.card-image:hover{
+    transform: scale(1.2);
+}
+
+.card_title {
+    overflow: hidden;
+    opacity: 0;
+}
+
+.card_title:hover{
+    opacity: 1;
+}
+
+img{
+    object-fit: cover;
+}
