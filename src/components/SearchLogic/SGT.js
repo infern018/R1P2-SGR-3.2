@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../App.css';
 import SearchByGenre from '../SearchBoxes/SearchByGenre'
 import MovieList from '../Movie/MovieList'
 import Pagination from '../Misc/Pagination'
