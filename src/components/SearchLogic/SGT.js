@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
-import SearchByGenre from './SearchByGenre'
-import MovieList from './MovieList'
-import Pagination from './Pagination'
-import MovieInfo from './MovieInfo';
+import SearchByGenre from '../SearchBoxes/SearchByGenre'
+import MovieList from '../Movie/MovieList'
+import Pagination from '../Misc/Pagination'
+import MovieInfo from '../MovieInfo/MovieInfo';
 
 class App extends Component {
   constructor(){

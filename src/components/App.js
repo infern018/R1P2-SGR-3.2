@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Nav from './Nav'
+import Nav from './Nav/Nav'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import SBT from './SBT'
-import SGT from './SGT'
-import Home from './Home';
+import SBT from './SearchLogic/SBT'
+import SGT from './SearchLogic/SGT'
+import Home from './Home/Home';
 
 class App extends Component{
   render(){
